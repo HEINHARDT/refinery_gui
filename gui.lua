@@ -1,4 +1,9 @@
---Colors
+ game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "HeinnzHub", 
+		Text = "Currently patched, stay tuned to the Heinnz youtube channel for updates",
+})
+
+--[[--Colors
 _G.ButtonColor = Color3.fromRGB(88,101,242);
 _G.ArrowColor = Color3.fromRGB(153, 170, 181)
 _G.PointerColor = Color3.fromRGB(64, 78, 237)
@@ -178,5 +183,5 @@ cred:Label("Heinnz#7894",{
     TextColor = Color3.fromRGB(255,255,255); 
     BgColor = Color3.fromRGB(44, 47, 51)
 	}) 
-cred:DestroyGui()
+cred:DestroyGui()]]--
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HEINHARDT/refinery_gui/main/check.lua",true))()
