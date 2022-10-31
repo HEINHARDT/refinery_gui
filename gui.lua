@@ -1,8 +1,8 @@
 --// Obfuscated By DevFuscator dariandev.com/discord 
 --1.2.1
 game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Heinnz - GAME UPDATED", -- Required
-	Text = "Game has been updated, some functions may not work rn!", -- Required
+	Title = " GAME UPDATED", -- Required
+	Text = "some functions may not work rn!", -- Required
 	Icon = "rbxassetid://1234567890" -- Optional
 })
 wait(4)
